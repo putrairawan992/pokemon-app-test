@@ -1,0 +1,40 @@
+{
+  "name": "pokemon-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:putrairawn992/pokemon-app.git",
+  "author": "@putrairawan992 <putrairawan993@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=12.15.0",
+    "yarn": ">=1.22.0"
+  },
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "start": "next start",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "dependencies": {
+    "@emotion/core": "^10.0.28",
+    "@emotion/styled": "^10.0.27",
+    "@material-ui/core": "^4.9.14",
+    "axios": "^0.19.2",
+    "immer": "^6.0.5",
+    "next": "^9.4.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^10.0.4",
+    "@types/jest": "^25.2.2",
+    "babel-jest": "^26.0.1",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "jest": "^26.0.1",
+    "react-addons-test-utils": "^15.6.2",
+    "react-test-renderer": "^16.13.1"
+  }
+}
